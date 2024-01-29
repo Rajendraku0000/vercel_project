@@ -18,9 +18,9 @@
   ],
   "routes": [
     {
-      "src": "/api/contents/(?<id>[^/]+)",
-      "dest": "/api/contents/[id].js?id=$id",
-      "methods": ["GET", "OPTIONS"],
+      "src": "/",
+      "dest": "/api/main.js",
+      "methods": ["GET", "POST"],
       "headers": {
         "Access-Control-Allow-Methods": "GET",
         "Access-Control-Allow-Headers": "Content-Type"
